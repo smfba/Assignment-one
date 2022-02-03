@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1, p{
+      color:white;
+  }
+  /* Global style start */
+  .button_style {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ffcc33;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    border: none;
+    padding: 13px 30px;
+    margin-top: 40px;
+    border-radius: 5px;
+  }
+  /* Global style end */
+
+  /* Header Style Start */
+  .header{
+      background-image: url(./Image_1.png);
+      height: 600px;
+      background-size: 100%;
+      background-position:cover;
+      padding-top: 200px;
+      padding-left: 100px;
+  }
+  .hader-p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+
+  /* Header Style End */
+
+  /* About Style Start */
+  .about{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+
+
+  }
+  .studio{
+      float: left;
+      text-align: center;
+      background-color: rgb(17, 17, 17);
+      width: 50%;
+      height: 100%;
+      padding: 200px;
+  }
+  
+  .studio p {
+    line-height: 25px;
+  }     
+  
+  .registration{
+      float:right;
+      text-align: center;
+      width: 50%;
+      height: 100%;
+      line-height: 25px;
+      padding: 200px;
+  }
+  .registration li{
+    color: white;
+    list-style-type: none;
+    height: 100%;
+    line-height: 25px;
+    margin: 10px;
+  }
+
+/* About Style End */
+
+/* Workshop Style Start */
+.workshop-event{
+  height: 600px; 
+  background-color: #f9f9f9; 
+
+  
+}
+.workshop-content{
+float:left;
+width: 40%;
+padding: 150px;
+}
+.workshop-content>h1{
+  color: black;
+}
+.workshop-content>p{
+  color: black;
+}
+.workshop-img{
+float: right;
+    width: 60%;
+    
+}
+.workshop-img img{
+  width: 100%;
+  height: 600px;
+}
+/* Workshop Style End */
+
+.studio-membership{
+  height: 600px; 
+  background-color: rgb(17, 17, 17); 
+
+}
+.studio-img{
+    float:left;
+    width: 60%;
+}
+.studio-img img{
+  width: 100%;
+  height: 600px;
+  margin: 0px;
+}
+.studio-content{
+  float:right;
+  width: 40%;
+  padding: 150px;
+  }
+/* Workshop Style End */
+
+/* Student Form Style Start */
+  .form-student{
+    height: 600px; 
+    background-image: url(./Image_4.png); 
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: top;
+    background-color: black;
+    padding-top: 100px;
+      padding-left: 100px;
+}
+
+  .form-card{
+    position: absolute;
+      background-color: #f9f9f9;
+      height: 600px;
+      width: 500px;
+      padding: 150px 100px 150px 100px
+  }
+  .form-card>h1{
+    color: black;
+  }
+  .form-card>p{
+    color: black;
+    margin: 10px;
+    line-height: 25px;
+  }
+/* Student Form Style end */
+/* Footer Style Start */
+.footer{
+  height: 600px;
+  background-color: black;
+  text-align: center;
+  padding: 200px 150px;
+}
+
+input{
+  padding: 15px;
+  width: 250px;
+  background-color: #000;
+  border: none;
+  border: 1px solid #ffcc33;
+}
+
+/* Footer Style End */
